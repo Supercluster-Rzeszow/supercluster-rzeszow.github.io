@@ -351,25 +351,14 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
-.mobile-articles {
-  display:none;
-}
-@media screen and (max-width:780px) {
-  .mobile-articles {
-    display:block;
-  }
-}
+#content-desktop {display: block;}
+#content-mobile {display: none;}
 
+@media screen and (max-width: 768px) {
 
-@media screen and (max-width: 780px) {
-  #child-iframe {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
-  }
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
 }
 
 /*--------------------------------------------------------------
