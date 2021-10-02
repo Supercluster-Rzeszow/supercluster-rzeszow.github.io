@@ -634,6 +634,14 @@ section {
   padding: 40px 0 0 0;
 }
 
+.about a {
+  display: block;
+  color: #010483;
+}
+.about a:hover {
+  display: block;
+  color:#1acc8d;
+}
 .about .center{
   margin: auto;
   width: 50%;
