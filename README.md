@@ -1,1 +1,0 @@
-# supercluster-rzeszow.github.io
