@@ -205,7 +205,11 @@
     })
   });
 
-// SMOOTH SCROLLING SECTIONS
-
+  window.addEventListener('load', function() {
+    let message = { height: document.body.scrollHeight };	
   
+    // window.top refers to parent window
+    window.top.postMessage(message, "*");
+  });
+
 })()
