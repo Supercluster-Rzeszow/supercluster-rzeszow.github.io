@@ -351,6 +351,28 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
+.mobile-articles {
+  display:none;
+}
+@media screen and (max-width:780px) {
+  .mobile-articles {
+    display:block;
+  }
+}
+
+.pc-articles {
+}
+@media screen and (max-width: 780px) {
+  #title_message {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
