@@ -1310,6 +1310,10 @@ box-shadow: 2px 5px 3px 5px #888888;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
 }
+
+.paddingkasia {
+padding: 100px;
+}
 .contact .info h4 {
   padding: 0 0 0 60px;
   font-size: 22px;
