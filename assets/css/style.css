@@ -102,6 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
+
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
 --------------------------------------------------------------*/
@@ -427,6 +428,10 @@ h1, h2, h3, h4, h5, h6 {
     animation: none;
   }
   #hero .hero-img {
+    text-align: center;
+  }
+
+  .imgoverrid {
     text-align: center;
   }
   #hero .hero-img img {
@@ -1049,6 +1054,17 @@ section {
   transform: scale(1.1);
 }
 .team .member .member-info {
+  position: absolute;
+  bottom: -80px;
+  left: 0px;
+  right: 0px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 0;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.member-info {
   position: absolute;
   bottom: -80px;
   left: 0px;
