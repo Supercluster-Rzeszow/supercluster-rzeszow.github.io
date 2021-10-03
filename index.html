@@ -326,7 +326,8 @@
           <i class="bx bx-target-lock icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1"> Choose your mission goal <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
           <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
             <p>
-              Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+              Consider what goal you want to achieve with your balloon mission. For a basic mission, a GPS, a pressure sensor, and a radio transmitter are sufficient. However, you can expand your payload with more sensors or samples.
+
             </p>
           </div>
         </li>
@@ -407,6 +408,13 @@ We have prepared sets of activities to be performed during particular phases of 
         <p>Use resources developed by our team</p>
       </div>
 
+      <p>
+        We've developed a basic package to make first your space experience a blast! However we encourage you to explore our Github page and add your own components.
+      </p>
+      <div class="margin_space"></div>
+      
+      <a href="https://github.com/Supercluster-Rzeszow">Check our Github!</a>
+      <div class="margin_space"></div>
       <div class="row" data-aos="fade-left ">
         <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
           <div class="member" data-aos="zoom-in" data-aos-delay="100">
@@ -439,9 +447,7 @@ We have prepared sets of activities to be performed during particular phases of 
         </div>
       </div>
       <div class="margin_space"></div>
-      <div class="margin_space"></div>
-      <div class="margin_space"></div>
-            <a href="https://github.com/Supercluster-Rzeszow">Check our Github!</a>
+     
     </div>
 
   </div>
@@ -476,7 +482,10 @@ The parachute and payload should be lifted upwards - don't let the balloon lift 
               <i class="bx bx-map-alt icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed"> Tracking <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  Payload tracking is the most important part of the mission - it allows you to recover the payload and the data collected. Payload can be tracked in different ways:
+We have prepared an open source LoRa radio tracker based on open source components. It allows sending telemetry via radio. We have designed hardware and software in such a way that it can be used by people with no experience in electronics and programming.
+It is possible to use commercial trackers based on cellular network transmission.
+
                 </p>
               </div>
             </li>
@@ -485,7 +494,7 @@ The parachute and payload should be lifted upwards - don't let the balloon lift 
               <i class="bx bx-package icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed"> Capsule interception <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                  Once the balloon has bursted, you will need to recover the payload. This will require going to the site where the payload fell, which should be transmitted via a radio transmitter to a base station. You must remember that the payload may fall in an unfavorable location - never take unnecessary risks to recover it (for example, do not remove a payload suspended in a tree). Safety always comes first!
                 </p>
               </div>
             </li>
@@ -494,7 +503,7 @@ The parachute and payload should be lifted upwards - don't let the balloon lift 
               <i class="bx bx-line-chart icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Secure your data  <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                  From the collected data you can get a lot of information about the behavior of the balloon, the parameters of the surrounding air and data about your own experiments. We have developed an application that allows you to analyze the basic telemetry of the balloon, which allows you to compare the actual route with the algorithm we predicted, and learn about the forces acting on the balloon!
                 </p>
               </div>
             </li>
@@ -517,7 +526,7 @@ The parachute and payload should be lifted upwards - don't let the balloon lift 
 
         <h2 id="content-mobile"> Available only on PC. Sorry! :(</h2>
 
-        <iframe id="content-desktop" width=100% height=2800px src="https://near-space-dash.herokuapp.com/" id="child-iframe"></iframe>
+        <iframe id="content-desktop" width=100% height=3500px src="https://near-space-dash.herokuapp.com/" id="child-iframe"></iframe>
 
         <!--<script>
           let iframe = document.querySelector("#child-iframe");
